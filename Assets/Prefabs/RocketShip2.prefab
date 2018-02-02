@@ -341,9 +341,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1044853970903322}
   serializedVersion: 2
-  m_Mass: 0.1
+  m_Mass: 0.5
   m_Drag: 0.25
-  m_AngularDrag: 0
+  m_AngularDrag: 0.005
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -406,7 +406,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 67f47ba1e27d74b93a63e5b6e162214f, type: 3}
+  m_audioClip: {fileID: 8300000, guid: f76ba1f0f6a204dea99d99aa7b8c18ca, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.6
   m_Pitch: 1
@@ -488,6 +488,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0fd3f02a1b7274aa09398d1e4e68b201, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ThrustForce: 3
-  RotationSpeed: 75
+  mainThrust: 20
+  rcsThrust: 250
+  breakupForce: 10
+  breakupForceRadius: 1
   isThrusting: 0
