@@ -118,6 +118,7 @@ public class Rocket_Input : MonoBehaviour {
 
 	#region Destroy Player
 	void DestroyPlayer(){
+		print("DestroyPlayer Invoked");
 		// TODO: Make ship break apart
 		Vector3 currentPos = transform.position;
 		// Play explosion vfx
